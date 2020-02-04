@@ -7,26 +7,26 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_home_black_24dp"
-        android:title="home"
+        android:name="com.example.justwrite.ui.home.HomeFragment"
+        android:label="home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_books"
-        android:icon="@drawable/ic_collections_bookmark_black_24dp"
-        android:title="collections"
+        android:name="com.example.justwrite.ui.collections.CollectionsFragment"
+        android:label="collections"
         tools:layout="@layout/fragment_collections" />
 
     <fragment
         android:id="@+id/navigation_notification"
-        android:icon="@drawable/ic_notifications_none_black_24dp"
-        android:title="notifications"
+        android:name="com.example.justwrite.ui.notifications.NotificationsFragment"
+        android:label="notifications"
         tools:layout="@layout/fragment_notifications" />
 
     <fragment
         android:id="@+id/navigation_account"
-        android:icon="@drawable/ic_account_circle_black_24dp"
-        android:title="account"
+        android:name="com.example.justwrite.ui.account.AccountFragment"
+        android:label="account"
         tools:layout="@layout/fragment_account" />
 
 </navigation>
