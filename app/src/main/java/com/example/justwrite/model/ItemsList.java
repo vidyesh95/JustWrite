@@ -1,4 +1,4 @@
-package com.example.justwrite;
+package com.example.justwrite.model;
 
 public class ItemsList {
     private  int mImage;

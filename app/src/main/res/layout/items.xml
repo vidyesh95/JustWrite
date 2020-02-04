@@ -22,7 +22,7 @@
             android:layout_marginStart="77dp"
             android:layout_marginTop="6dp"
             android:text="Line1"
-            android:textColor="color/black"
+            android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold" />
 
